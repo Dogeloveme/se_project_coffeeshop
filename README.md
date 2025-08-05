@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I would like to intigrate animations for the navigation logo, the footer logo, and possibly the header image.
+
+I would also like to use different font styles for the title and subtitle text.
