@@ -41,7 +41,7 @@
           the cozy vibes to help you get creative
         </p>
         <img
-          src="/images/inside_coffee_shop.png"
+          src="./images/inside_coffee_shop.png"
           alt="Coffee Shop"
           class="header__image"
         />
@@ -133,15 +133,24 @@
               /></label>
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label for="" class="form__label form__label_type_checkbox">
-              <input required type="checkbox" class="form__checkbox" /> I agree
-              with the terms of use
+            <label
+              for="checkbox-input"
+              class="form__label form__label_type_checkbox"
+            >
+              <input
+                required
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox-input"
+              />
+              I agree with the terms of use
             </label>
           </form>
         </section>
         <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
-          <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <ul class="menu__cards">
@@ -178,10 +187,13 @@
                   Cortado <span class="card__list-divider"></span> $2.50
                 </li>
                 <li class="card__list-item">
-                 Mocha <span class="card__list-divider"></span> $3
+                  Mocha <span class="card__list-divider"></span> $3
                 </li>
                 <li class="card__list-item">
-                  Sunrise in the Bay Area (decaf)<span class="card__list-divider"></span> $10
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__list-divider"
+                  ></span>
+                  $10
                 </li>
               </ul>
             </li>
@@ -198,7 +210,7 @@
                   Key Lime Pie<span class="card__list-divider"></span> $3
                 </li>
                 <li class="card__list-item">
-                 Blue Velvet Cake<span class="card__list-divider"></span> $3.75
+                  Blue Velvet Cake<span class="card__list-divider"></span> $3.75
                 </li>
                 <li class="card__list-item">
                   Web Cookie<span class="card__list-divider"></span> $2
@@ -238,7 +250,7 @@
             class="footer__logo"
           />
           <div class="footer__column">
-            <h3 class="footer__column-heading">Social Media</h3>
+            <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link"
@@ -261,7 +273,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">&#169; 2025 David Vazquez</p></div>
+        <p class="footer__copyright">&#169; 2023 David Vazquez</p>
       </footer>
     </div>
   </body>
