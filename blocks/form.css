@@ -22,7 +22,7 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
@@ -33,7 +33,7 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
