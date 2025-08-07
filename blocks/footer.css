@@ -15,10 +15,10 @@
   justify-content: space-between;
 }
 
-.footer__column {
-}
-
 .footer__social-heading {
+  font-family: "inter" Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   margin: 0 0 20px;
 }
 
@@ -29,9 +29,6 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-.footer__list-item {
 }
 
 .footer__social-link {
@@ -54,4 +51,7 @@
 
 .footer__copyright {
   margin: 108px 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
